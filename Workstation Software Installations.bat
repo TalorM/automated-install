@@ -4,21 +4,21 @@ cd C:\WorkstationSetup\Auto
 
 REM Define file variables
 set FILE1=AdobeReader.msi
-set URL1=https://github.com/TalorM/automated-install/releases/tag/v1.0/%FILE1%
+set URL1=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE1%
 set FILE2=Dialpad.exe
-set URL2=https://github.com/TalorM/automated-install/releases/tag/v1.0/%FILE2%
+set URL2=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE2%
 set FILE3=GoogleChrome.msi
-set URL3=https://github.com/TalorM/automated-install/releases/tag/v1.0/%FILE3%
+set URL3=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE3%
 set FILE4=Java.exe
-set URL4=https://github.com/TalorM/automated-install/releases/tag/v1.0/%FILE4%
+set URL4=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE4%
 set FILE5=MSOffice.exe
-set URL5=https://github.com/TalorM/automated-install/releases/tag/v1.0/%FILE5%
+set URL5=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE5%
 set FILE6=MSTeams.exe
-set URL6=https://github.com/TalorM/automated-install/releases/tag/v1.0/%FILE6%
+set URL6=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE6%
 set FILE7=NotepadPP.exe
-set URL7=https://github.com/TalorM/automated-install/releases/tag/v1.0/%FILE7%
+set URL7=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE7%
 set FILE8=Python.exe
-set URL8=https://github.com/TalorM/automated-install/releases/tag/v1.0/%FILE8%
+set URL8=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE8%
 
 echo Downloading install files from GitHub
 curl -L -o "%FILE1%" %URL1% || (echo Failed to download %FILE1% & exit /b)
