@@ -31,7 +31,7 @@ curl -L -o "%FILE7%" %URL7% || (echo Failed to download %FILE7% & exit /b)
 curl -L -o "%FILE8%" %URL8% || (echo Failed to download %FILE8% & exit /b)
 
 echo Installing applications
-msiexec /i "%FILE1%" /quiet /norestart || (echo Failed to install %FILE1% & exit /b)
+start /wait "%FILE1%" /s || (echo Failed to install %FILE1% & exit /b)
 start /wait "%FILE2%" /s || (echo Failed to install %FILE2% & exit /b)
 msiexec /i "%FILE3%" /quiet /norestart || (echo Failed to install %FILE3% & exit /b)
 start /wait "%FILE4%" /s || (echo Failed to install %FILE4% & exit /b)
