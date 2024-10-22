@@ -3,7 +3,7 @@ mkdir C:\WorkstationSetup\Auto 2>nul
 cd C:\WorkstationSetup\Auto
 
 REM Define file variables
-set FILE1=AdobeReader.msi
+set FILE1=AdobeReader.exe
 set URL1=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE1%
 set FILE2=Dialpad.exe
 set URL2=https://github.com/TalorM/automated-install/releases/download/v1.0/%FILE2%
